@@ -39,6 +39,9 @@ disableHugoGeneratorInject = true
 # Disable kinds we do not use
 disableKinds = ['rss', 'sitemap', 'taxonomy', 'term']
 
+# Enable this theme
+theme = '417-tech'
+
 ###
 #  START: Generic config
 ###
