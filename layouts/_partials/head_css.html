@@ -1,4 +1,9 @@
-{{ with resources.Get "scss/main.scss" | css.Sass }}
+{{
+    $sassOpts := dict
+    "enableSourceMap" hugo.IsDevelopment
+    "targetPath" "css/main.css"
+}}
+{{ with resources.Get "scss/main.scss" | css.Sass $sassOpts }}
 {{ if hugo.IsDevelopment }}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ else }}

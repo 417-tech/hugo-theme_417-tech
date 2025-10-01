@@ -1,5 +1,13 @@
+/*
+Variables
+*/
 @import "variables";
-@import "base";
-
-// To override the themes CSS, create "assets/scss/_overrides.scss" in the site.
+// To override the CSS variables, create "assets/scss/_overrides.scss" in the site.
 @import "overrides";
+
+/*
+Styles
+*/
+@import "base";
+// To override or add CSS styles, create "assets/scss/_overrides.scss" in the site.
+@import "custom";
