@@ -1,0 +1,24 @@
+###
+#  Copy the theme config directory in to your site directory
+#  and edit the files inside config/_default only.
+#
+#  This development directory contains some options that make
+#  development easier, with less flags required on `hugo serve`.
+###
+
+# Build draft pages
+buildDrafts = true
+
+# Build expired pages (expiredDate in the past)
+buildExpired = true
+
+# Build future pages (publishDate in the future)
+buildFuture = true
+
+# Show the placeholder for a missing i18n entry
+enableMissingTranslationPlaceholders = true
+
+# Rather than messing with the HTTP cache here, use --noHTTPCache
+
+# Ignore the cache directory
+ignoreCache = true

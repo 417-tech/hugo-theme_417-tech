@@ -1,0 +1,6 @@
+languageCode = 'en'
+languageDirection = 'ltr'
+languageName = 'English'
+weight = 1
+
+# https://gohugo.io/configuration/languages/#localized-settings
