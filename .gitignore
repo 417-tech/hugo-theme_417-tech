@@ -34,3 +34,5 @@
 
 !/static/
 !/static/**
+
+!go.mod
