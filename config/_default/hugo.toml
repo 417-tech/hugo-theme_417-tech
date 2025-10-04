@@ -1,47 +1,11 @@
-###
-#  Copy the theme config directory in to your site directory
-#  and edit the files inside config/_default only.
-###
-
-###
-#  START: Site-specific config
-#
-#  Uncomment and fill all of these options
-###
-
-# The full base URL of the site, including scheme, URL, any default URI and a trailing slash
-# Example: https://example.com/
-#baseURL = ''
-
-# The title of the whole site, used on every page title
-# Example: My Company
-#title = ''
+# Define a default and consistent copyright string, available as {{ .Site.Copyright }}
+copyright = '&copy; {{ now.Year }} {{ .Site.Title }}'
 
 # Default language to use for site i18n
 defaultContentLanguage = 'en'
-
-###
-#  END: Site-specific config
-###
-
-###
-#  START: Generic config
-#
-#  Only change these options if you know what you are doing
-###
-
-# Define a default and consistent copyright string, available as {{ .Site.Copyright }}
-copyright = '&copy; {{ now.Year }} {{ .Site.Title }}'
 
 # Disable the meta generator entry
 disableHugoGeneratorInject = true
 
 # Disable kinds we do not use
 disableKinds = ['rss', 'sitemap', 'taxonomy', 'term']
-
-# Enable this theme
-theme = '417-tech'
-
-###
-#  START: Generic config
-###
